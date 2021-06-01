@@ -44,14 +44,13 @@ const Utils = {
         let newDateTime = utc + (3600000 * offset);    
         let convertedDateTime = new Date(newDateTime).getTime();
         console.log(convertedDateTime)
-        return convertedDateTime/1000;
-        // return convertedDateTime.toLocaleString();
+        return Math.floor(convertedDateTime/1000);
     },
     getSunOffset: (current, sunrise, sunset) => {
-        if(!sunrise < current < sunset) return 0;
+        if(!current > sunrise && !current < sunset) return 0;
         let horizon = sunset - sunrise;
         let offset = (current - sunrise) / horizon * 100;
-        console.log(horizon, (current- sunrise), offset)
+        console.log(offset)
         return offset;
     }
     
