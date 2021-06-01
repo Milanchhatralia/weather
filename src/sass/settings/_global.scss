@@ -1,0 +1,43 @@
+// Grid breakpoints - using the same ones as boostrap
+$grid-breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px
+);
+
+// Fonts and Typography
+$font-family: 'Montserrat', sans-serif;
+
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+
+// spacing
+$max-width: 440px;
+$regular-spacing: 16px;
+
+$border-rounded: 100px;
+
+$font-huge: 48px;
+$font-largest: 32px;
+$font-larger: 24px;
+$font-size: 16px;
+$font-smaller: 14px;
+$font-smallest: 12px;
+
+$font-weight-medium: 900;
+
+// Colors
+$text-color: #333333;
+$white-color:#ffffff;
+$grey-color:#888888;
+
+$grey-light: #e6e6e6;
+
+
+

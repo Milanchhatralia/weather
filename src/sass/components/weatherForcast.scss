@@ -1,0 +1,15 @@
+.daily-forcast{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: $regular-spacing;
+    overflow-y: scroll;
+    .daily-item{
+        padding: $regular-spacing;
+        margin-right: $regular-spacing;
+        text-align: center;
+        background-color: $grey-light;
+        border-radius: 15px;
+        img{ height: 50px; }
+    }
+    &::-webkit-scrollbar {display: none;}
+}

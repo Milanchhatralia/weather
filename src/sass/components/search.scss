@@ -1,0 +1,32 @@
+.search-container{
+    position: relative;
+    display: flex;
+    margin-top: 32px;
+    input.search-input{
+        outline: none;
+        border: none;
+        width: 100%;
+        padding: 12px 24px;
+        background-color: $grey-light;
+        border-radius: $border-rounded;
+        font-size: $font-size;
+        &::placeholder{
+            font-size: $font-size;
+        }
+    }
+    span.search-submit{
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+        border-radius: $border-rounded;
+        background-color: $white-color;
+        cursor: pointer;
+        img{ height: 16px; }
+    }
+}

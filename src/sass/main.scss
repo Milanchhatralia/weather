@@ -1,0 +1,31 @@
+//font and globals
+@import "settings/fonts";
+@import "settings/global";
+
+// Mixins
+@import "mixins";
+@import "utils";
+
+// import components/elements
+@import "components/search.scss";
+@import "components/weatherCardPrimary.scss";
+@import "components/weatherForcast.scss";
+
+
+body, html { 
+    font-family: $font-family;
+    font-size: $font-size;
+    color: $text-color;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.no-link{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+p{margin: 0;}
