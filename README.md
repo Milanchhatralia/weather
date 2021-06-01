@@ -4,6 +4,6 @@ App show/search weather in your region
 
 ## Start
 
-### Fork
+### `Fork/pull`
 
-### npm install
+### `npm install`
